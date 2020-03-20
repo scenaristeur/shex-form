@@ -4,7 +4,8 @@
   "description": "playground for ShEx-driven interfaces",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,10 @@
   "dependencies": {
     "@shexjs/core": "^1.0.0-alpha.2",
     "@shexjs/parser": "^1.0.0-alpha.2",
+    "express": "^4.17.1",
     "n3": "^1.0.5"
+  },
+  "directories": {
+    "example": "examples"
   }
 }
